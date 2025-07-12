@@ -47,7 +47,7 @@ int main(void)
         glClear(GL_COLOR_BUFFER_BIT);
 
         glDrawArrays(GL_TRIANGLES, 0, 3);
-        //glDrawElements(GL_TRIANGLES, 3, )
+        //glDrawElements(GL_TRIANGLES, 3, ) -- use when you have index buffer
 
         /* Swap front and back buffers */
         glfwSwapBuffers(window);
